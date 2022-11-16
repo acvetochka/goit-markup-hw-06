@@ -317,8 +317,10 @@ body {
 
 .service-title {
     position: absolute;
+    width: 100%;
     bottom: 0;
-    padding: 27px 107px;
+    padding-top: 27px;
+    padding-bottom: 27px;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
