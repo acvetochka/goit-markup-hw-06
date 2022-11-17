@@ -582,6 +582,7 @@ body {
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    outline: none;
 }
 
 .icon-send {
@@ -618,6 +619,7 @@ body {
     background: var(--button-accent);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    
 }
 
 /* .icon-team {
@@ -868,7 +870,7 @@ body {
 }
 
 .form-input {
-    height: 48px;
+    height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 42px;
@@ -912,6 +914,7 @@ body {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
+    resize: none;
 }
 
 .comment::placeholder {
